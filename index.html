@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vin&iacutecius Mattos</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/VINICIUS-MATTOS.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/elements.css" />
+    <link rel="stylesheet" href="assets/css/classes.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/timeline.css" />
+    <link rel="stylesheet" href="assets/css/cards.css" />
+  </head>
+
+  <body>
+    <input
+      id="close-menu"
+      class="close-menu"
+      type="checkbox"
+      aria-label="Close menu"
+      role="button"
+    />
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#home">Vin&iacutecius Mattos</a>
+        </h1>
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#curriculo">Experiência</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <!-- <li><a href="#projetos">Projetos</a></li> -->
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="sobre main-bg section">
+      <div class="main-content sobre-content">
+        <div class="sobre-text-content">
+          <h4>Ol&aacute, eu sou Vin&iacutecius</h4>
+          <p>
+           Desenvolvedor Full Stack 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="white-bg section">
+      <div class="main-content top3-content">
+        <h4>Sobre Mim</h4>
+        <p>
+          Sou um desenvolvedor Full Stack com 3 anos de experiência na área,
+          atuando principalmente com tecnologias como React, Node.js,
+          TypeScript, JavaScript, HTML, CSS e Oracle PLSQL. Minha experiência inclui
+          o desenvolvimento de aplicações web, integração com APIs e
+          resolução de problemas técnicos. Estou sempre aberto a
+          aprender e crescer profissionalmente e em busca de
+          novos desafios na área de desenvolvimento de software.
+        </p>
+      </div>
+    </section>
+
+    <section id="curriculo" class="curriculo main-bg section">
+      <div class="main-content curriculo-content">
+        <h4 class="grid-main-heading">Experiência Profissional</h4>
+          </br>
+          <div class="timeline">
+            <div class="conteudo left">
+              <div class="content">
+                <h6 class="timeline-color">Software Developer (11/2022 - momento)</h6>
+                <p class="enterprise-color">
+                  <strong>Senior Mega</strong>
+                </p>
+              </div>
+            </div>
+            <div class="conteudo right">
+              <div class="content">
+                <h6 class="timeline-color">Desenvolvedor Full Stack (10/2021 - 10/2022)</h6>
+                <p class="enterprise-color">
+                  <strong>Dnaxis Informática</strong>
+                </p>
+              </div>
+            </div>
+            <div class="conteudo left">
+              <div class="content">
+                <h6 class="timeline-color">Técnico de Suporte (11/2016 - 10/2021)</h6>
+                <p class="enterprise-color">
+                  <strong>Dnaxis Informática</strong>
+                </p>
+              </div>
+            </div>
+            <div class="conteudo right">
+              <div class="content">
+                <h6 class="timeline-color">Professor de Desenho Técnico Mecânico 2D/3D (03/2016 - 08/2016)</h6>                
+                <p class="enterprise-color">
+                  <strong>MicroPro</strong>
+                </p>
+              </div>
+            </div>
+            <div class="conteudo left">
+              <div class="content">
+                <h6 class="timeline-color">Desenhista Projetista (01/2011 - 01/2016)</h6>
+                <p class="enterprise-color">
+                  <strong>Metal Linea</strong>
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="formacao white-bg section">
+      <div class="main-content formacao-content">
+        <h4 class="grid-main-heading">Formação Acadêmica</h4>
+        <p class="grid-description"></p>
+        <div class="grid">
+        <article>
+          <div class="w3-container">
+            <div class="w3-card-4 w3-center cards">
+            <h6>Graduação em Ciência da Computação (01/2019 - 07/2024)</h6>
+              <div class="w3-container w3-center">
+                <p>Cruzeiro do Sul (CEUNSP – Salto/SP)</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="w3-container">
+            <div class="w3-card-4 w3-center cards">
+            <h6>Pós-graduação em Engenharia de Software (10/2024 - Em Andamento)</h6>
+              <div class="w3-container w3-center">
+                <p>PUC Minas EAD</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      </div>
+    </section>
+
+    <!-- <section id="projetos" class="curriculo white-bg section">
+      <div class="main-content curriculo-content">
+        <h4 class="grid-main-heading">Projetos</h4>
+        <p class="grid-description">Em construção.</p>
+      </div>
+    </section> -->
+
+    <section id="contato" class="sobre main-bg section">
+      <div class="main-content sobre-content">
+        <div class="sobre-text-content">
+          <h3>Contato</h3>
+        </div>
+        <div class="contato-form">
+          <form action="" id="form" method="POST" onsubmit="return validaFormulario()">
+            <fieldset class="form-grid">
+              <div class="form-group">
+                <label for="first-name">Nome</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Nome"
+                  required
+                />
+              </div>
+  
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="seu@email.com"
+                  required
+                  oninput="validaFormulario()"
+                />
+                 <span id="emailFeedback" style="color: red;"></span>
+              </div>
+  
+              <div class="form-group full-width">
+                <label for="message">Mensagem</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Mensagem"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group full-width">
+                <button type="submit">Enviar</button>
+              </div>
+            </fieldset>
+          </form>
+          <!-- <p id="response"></p> -->
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+      <p id="copy"></p>
+      <script>
+        const d = new Date();
+        let year = d.getFullYear();
+        let copy;
+        copy = "&copy " + year + " Vin&iacutecius Mattos";
+        document.getElementById("copy").innerHTML = copy;
+      </script>
+    </footer>
+    <a class="back-to-top" id="backBtn" href="#">➤</a>
+    
+    <!--script-->
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    </script>
+    
+    <script src="assets/js/funcoes.js"></script>
+  </body>
+</html>
